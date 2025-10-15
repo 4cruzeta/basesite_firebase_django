@@ -3,6 +3,7 @@ source .venv/bin/activate
 mkdir basesite
 django-admin startproject config basesite
 python basesite/manage.py runserver
+python basesite/manage.py collectstatic
 
 *************
 **** git ****

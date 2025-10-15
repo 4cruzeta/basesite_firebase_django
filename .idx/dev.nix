@@ -31,7 +31,7 @@ idx = {
         # Installs the dependencies for your theme's Tailwind CSS
         # install-npm-deps = "cd basesite/theme/static_src && npm install";
         # Installs Django and other Python dependencies
-        install-pip-deps = "pip install -r requirements.txt";
+        install-pip-deps = "pip install -r basesite/requirements.txt";
         # Example: install JS dependencies from NPM
         # npm-install = "npm install";
         # Open editors for the following files by default, if they exist:
